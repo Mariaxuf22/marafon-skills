@@ -1,0 +1,19 @@
+﻿<Window x:Class="Marafon.WindCharity"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Marafon"
+        mc:Ignorable="d"
+        Title="Благотворительная организация" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="67*"/>
+            <ColumnDefinition Width="733*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label_charityName"  Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.181,2.673" Height="40" Width="183" Margin="198,15,0,0" Grid.Column="1"/>
+        <TextBlock x:Name="TextBlock" Foreground="{DynamicResource dark_grey}"  Margin="0,247,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="187" Width="800" Grid.ColumnSpan="2"/>
+        <Image x:Name="Image"  Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="258,110,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>
